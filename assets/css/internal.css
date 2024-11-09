@@ -1,0 +1,70 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/_navigator.css');
+@import url('components/_pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
+
+.s-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-flow: row nowrap; 
+  background-color: rgb(19, 99, 99); 
+}
+
+.s-wrapper video{
+  position: fixed;
+  width: 100%;
+
+}
+
+.s-left-column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.s-main-content__top {
+  height: 70vh;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: flex-start;
+}
+
+.s-logo img{
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
+.description {
+  max-width: 50%;
+  margin: 8% 5% 0 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.s-spiderman-01-01 {
+  background-image: url('../images/backend-wallpaper.jpg');
+  background-size:cover;
+}
+
+.s-spiderman-01-02 {
+  background-image: url('../images/full-stack-wallpaper.jpeg');
+  background-size: cover;
+}
+
+.s-spiderman-01-03 {
+  background-image: url('../images/frontend-wallpaper.jpeg');
+  background-size: cover;
+}

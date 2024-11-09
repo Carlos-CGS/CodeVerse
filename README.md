@@ -26,6 +26,8 @@ Além disso, o **menu superior** foi atualizado para direcionar os usuários ao 
 
 ## Contribuindo
 
-Se você deseja contribuir para o projeto, fique à vontade para criar um Fork e enviar um Pull Request .
+Se você deseja contribuir para o projeto, fique à vontade para criar um Fork e enviar um Pull Request.
+
+Segue Link do Site Funcionando: https://code-verse-one.vercel.app/
 
 <img src="./assets/images/site.png">

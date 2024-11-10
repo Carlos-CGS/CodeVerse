@@ -91,7 +91,7 @@ html, body {
   }
   .description {
     width: 140vw; 
-    height: 55vh; 
+    height: 50vh; 
     margin: 0 auto; 
     padding: 0.1rem 1rem; 
     overflow-y: auto; 

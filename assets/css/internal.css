@@ -5,9 +5,15 @@
 @import url('components/_link-button.css');
 @import url('components/_gallery.css');
 
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .s-wrapper {
   display: flex;
   height: 100vh;
+  width: 100%;
   flex-flow: row nowrap; 
   background-color: rgb(19, 99, 99); 
 }
@@ -43,6 +49,7 @@
   margin-top: 15%;
   margin-left: 10%;
   margin-bottom: 30px;
+  filter: drop-shadow(4px 0px 10px rgba(0, 0, 0, 1));
 }
 
 .description {
@@ -67,4 +74,54 @@
 .s-spiderman-01-03 {
   background-image: url('../images/frontend-wallpaper.jpeg');
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .s-wrapper{
+    height: 100vh;
+    width: 100vw;
+  }
+  .s-left-column{
+    height: 100vh;
+    width: 15vw;
+  }
+  .navigator ul li a{
+    font-size: 0.8rem;
+  }
+  .s-main-content__top {
+    height: 95vh;
+    display: flex;
+    flex-direction: column; 
+  }
+  .s-logo {
+    width: 100%; 
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -22%;
+    margin-top: -4%;
+  }
+  .s-logo img {
+    width: auto;
+    height: 100%; 
+  }
+  .description {
+    width: 140vw; 
+    height: 50vh; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    overflow-y: auto; 
+    box-sizing: border-box; 
+    margin-left: 4.5rem;
+  }
+  .pills ul li{
+    font-size: 0.7rem;
+    padding: 5px;
+    margin: 0.3rem 0.1rem;
+    border-radius: 0.3rem;
+  }
+  .description__text p, strong{
+    font-size: 0.6rem;
+  }
 }

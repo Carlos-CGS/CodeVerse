@@ -33,6 +33,11 @@ body::before {
   padding: 0 2rem;
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
   font-size: 2rem;
+  text-shadow: 
+    1px 1px 0 black,   
+    -1px -1px 0 black, 
+    1px -1px 0 black, 
+    -1px 1px 0 black; 
 }
 
 .s-menu__item:hover {
@@ -195,9 +200,20 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
 
 @media (max-width: 768px) {
   .s-cards-carousel {
-      transform: translateZ(-20vw); 
+      transform: translateZ(-20vw);  
   }
   .s-card__title {
-      font-size: 1.2em;
+      font-size: 0.8rem;
+  }
+  .s-menu__item {
+    padding: 1rem 0.1rem;
+    font-size: 1rem;
+  }
+  .s-card{
+    height: 60vh;
+  }
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }

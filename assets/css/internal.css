@@ -41,7 +41,6 @@ html, body {
   flex-direction: row; 
   justify-content: space-between; 
   align-items: flex-start;
-  margin-top: 5%;
 }
 
 .s-logo img{
@@ -61,6 +60,10 @@ html, body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
 }
 
+.navigator ul li a{
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .s-wrapper{
     height: 100vh;
@@ -77,7 +80,6 @@ html, body {
     height: 95vh;
     display: flex;
     flex-direction: column; 
-    margin-top: 0;
   }
   .s-logo {
     width: 100%; 
